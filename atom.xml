@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Robert&#39;s blog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2020-04-26T02:34:58.635Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Robert Cheng</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo上傳github步驟</title>
+    <link href="http://yoursite.com/2020/04/25/Hexo%E9%A0%81%E9%9D%A2%E7%84%A1%E6%B3%95%E9%A1%AF%E7%A4%BA%E5%95%8F%E9%A1%8C/"/>
+    <id>http://yoursite.com/2020/04/25/Hexo%E9%A0%81%E9%9D%A2%E7%84%A1%E6%B3%95%E9%A1%AF%E7%A4%BA%E5%95%8F%E9%A1%8C/</id>
+    <published>2020-04-25T10:28:01.000Z</published>
+    <updated>2020-04-26T02:34:58.635Z</updated>
+    
+    <content type="html"><![CDATA[<p>佈署前先進行動作</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure><p>按照步驟執行</p><p>Step 1 :</p><p>到個人的Github頁面，創建一個儲存庫，特別注意儲存庫的名稱必須要是個人的Github名稱為起始</p><p>例如︰github_name.github.io</p><p>接下來就可以進行佈署動作</p><p>Step 2 :</p><p>打開hexo根目錄底下的_config.yml，找到deploy的地方</p><p>分別填入type、repo、branch，</p><p>type設定為git</p><p>repo設定為創建時的HTTPS或SSH</p><p>branch設定為master</p><p>Step 3 ︰</p><p>設定完上述步驟後，即可開始執行指令 hexo deploy，完成網頁創建</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;佈署前先進行動作&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code
+      
+    
+    </summary>
+    
+    
+      <category term="Debug" scheme="http://yoursite.com/categories/Debug/"/>
+    
+    
+      <category term="-&quot;Hexo&quot; -&quot;Debug&quot;" scheme="http://yoursite.com/tags/Hexo-Debug/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>post</title>
+    <link href="http://yoursite.com/2020/04/24/post/"/>
+    <id>http://yoursite.com/2020/04/24/post/</id>
+    <published>2020-04-24T13:54:38.000Z</published>
+    <updated>2020-04-25T10:26:45.356Z</updated>
+    
+    <content type="html"><![CDATA[<p>使用 hexo 開發網頁<br>學習到許多程式開發的應用<br>而且非常方便使用！</p><h2 id="Wappalyzer-了解網站使用了哪些技術與工具"><a href="#Wappalyzer-了解網站使用了哪些技術與工具" class="headerlink" title="Wappalyzer : 了解網站使用了哪些技術與工具"></a>Wappalyzer : 了解網站使用了哪些技術與工具</h2><p>官網︰<a href="https://www.wappalyzer.com/" target="_blank" rel="noopener">https://www.wappalyzer.com/</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;使用 hexo 開發網頁&lt;br&gt;學習到許多程式開發的應用&lt;br&gt;而且非常方便使用！&lt;/p&gt;
+&lt;h2 id=&quot;Wappalyzer-了解網站使用了哪些技術與工具&quot;&gt;&lt;a href=&quot;#Wappalyzer-了解網站使用了哪些技術與工具&quot; class=&quot;headerlink&quot; 
+      
+    
+    </summary>
+    
+    
+      <category term="First hexo" scheme="http://yoursite.com/categories/First-hexo/"/>
+    
+    
+      <category term="-&quot;First hexo&quot;" scheme="http://yoursite.com/tags/First-hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown Advanced</title>
+    <link href="http://yoursite.com/2020/04/24/Markdown-Advanced/"/>
+    <id>http://yoursite.com/2020/04/24/Markdown-Advanced/</id>
+    <published>2020-04-24T11:33:04.000Z</published>
+    <updated>2020-04-25T10:27:03.852Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="引用文章"><a href="#引用文章" class="headerlink" title="引用文章"></a>引用文章</h4><blockquote><p>Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Throught mercy.</p><footer><strong>David Levithan</strong><cite>Wide Awake</cite></footer></blockquote><h4 id="Code-Block"><a href="#Code-Block" class="headerlink" title="Code Block"></a>Code Block</h4><h5 id="通用形式"><a href="#通用形式" class="headerlink" title="通用形式"></a>通用形式</h5><figure class="highlight plain"><figcaption><span>[title] [] [url] [link text]</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">code snippet</span><br></pre></td></tr></table></figure><h5 id="插入-Gist"><a href="#插入-Gist" class="headerlink" title="插入 Gist"></a>插入 Gist</h5><script src="//gist.github.com/2565dff0fccf3ba830015e621866e214.js?file=index.html"></script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;引用文章&quot;&gt;&lt;a href=&quot;#引用文章&quot; class=&quot;headerlink&quot; title=&quot;引用文章&quot;&gt;&lt;/a&gt;引用文章&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;Do not just seek happiness for yourself. Seek happ
+      
+    
+    </summary>
+    
+    
+      <category term="First hexo" scheme="http://yoursite.com/categories/First-hexo/"/>
+    
+    
+      <category term="-&quot;First hexo&quot;" scheme="http://yoursite.com/tags/First-hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown</title>
+    <link href="http://yoursite.com/2020/04/24/Markdown/"/>
+    <id>http://yoursite.com/2020/04/24/Markdown/</id>
+    <published>2020-04-24T11:28:29.000Z</published>
+    <updated>2020-04-25T10:26:53.724Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="大標題"><a href="#大標題" class="headerlink" title="大標題"></a>大標題</h1><h2 id="次標題"><a href="#次標題" class="headerlink" title="次標題"></a>次標題</h2><h5 id="小標題"><a href="#小標題" class="headerlink" title="小標題"></a>小標題</h5><p><strong>粗體</strong></p><h5 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h5><ul><li>Item 1</li><li>Item 2<ul><li>Item 2a</li><li>Item 2b</li></ul></li></ul><h5 id="CheckBox"><a href="#CheckBox" class="headerlink" title="CheckBox"></a>CheckBox</h5><ul><li><input checked="" disabled="" type="checkbox"> This is a complete item</li><li><input disabled="" type="checkbox"> This is an incomplete item</li></ul><h5 id="區塊"><a href="#區塊" class="headerlink" title="區塊"></a>區塊</h5><p>‘Format one word or one line’</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;大標題&quot;&gt;&lt;a href=&quot;#大標題&quot; class=&quot;headerlink&quot; title=&quot;大標題&quot;&gt;&lt;/a&gt;大標題&lt;/h1&gt;&lt;h2 id=&quot;次標題&quot;&gt;&lt;a href=&quot;#次標題&quot; class=&quot;headerlink&quot; title=&quot;次標題&quot;&gt;&lt;/a&gt;次標題&lt;/h
+      
+    
+    </summary>
+    
+    
+      <category term="First hexo" scheme="http://yoursite.com/categories/First-hexo/"/>
+    
+    
+      <category term="-&quot;First hexo&quot;" scheme="http://yoursite.com/tags/First-hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>test</title>
+    <link href="http://yoursite.com/2020/04/24/test/"/>
+    <id>http://yoursite.com/2020/04/24/test/</id>
+    <published>2020-04-24T11:23:48.000Z</published>
+    <updated>2020-04-25T10:26:58.176Z</updated>
+    
+    <content type="html"><![CDATA[<p>第一次使用 <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> 就上手</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;第一次使用 &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt; 就上手&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="First hexo" scheme="http://yoursite.com/categories/First-hexo/"/>
+    
+    
+      <category term="-&quot;First hexo&quot;" scheme="http://yoursite.com/tags/First-hexo/"/>
+    
+  </entry>
+  
+</feed>
